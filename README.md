@@ -44,10 +44,10 @@ simply try restarting the exploit proccess.
 
 # Stage 2:     
 0. If persistently stuck on the below  
-[+] STAGE 2: KASLR defeat
-[*] Defeating KASLR...
-[+] pppoe_softc_list: 0xffffffff884de578
-[+] kaslr_offset: 0x3ffc000
+[+] STAGE 2: KASLR defeat      
+[*] Defeating KASLR...     
+[+] pppoe_softc_list: 0xffffffff884de578    
+[+] kaslr_offset: 0x3ffc000      
       
 1. Any issues here usually result in a kernel panic=console shutting down.       
 2. Console shutdown happens ocasionally on its own but if it persists try changin to a different IPV6 for the exploit settings usually marked by "old" or "Stable".     
