@@ -1,5 +1,9 @@
 # PPPwn-Troubleshooting     
-Beginning to end PPPwn troubleshooting.    
+Beginning to end PPPwn troubleshooting. 
+      
+# PPPwn Windows GUI 
+[PPPwn Tinker](https://github.com/DrYenyen/PPPwn-Tinker-GUI)    
+      
 
 # Windows Desktop side troubleshooting.     
 1. Troubleshooting on windows is not straightforward but you can try the following things.
