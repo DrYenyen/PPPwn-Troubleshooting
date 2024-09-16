@@ -36,8 +36,22 @@ simply try restarting the exploit proccess.
        
 	   
 # Stage 1:
+1. Any issues here usually result in a kernel panic=console shutting down.       
+2. Console shutdown at "[*] Waiting for IPCP configure ACK..." happens ocasionally on its own but if it persists try changin to a different IPV6 for the exploit settings usually marked by "old" or "Stable".     
+3. Console persistently shutting down at "[*] Waiting for IPCP configure ACK..." or "[+] Scanning for corrupted object..." try changing the Npcap version to an older one if on Windows.      
+4. If on a Mac try a windows device......    
+      
 
+# Stage 2:     
+0. If persistently stuck on the below see  troubeshooting from Stage 1:    
+1. Any issues here usually result in a kernel panic=console shutting down.       
+2. Console shutdown at "[*] Waiting for IPCP configure ACK..." happens ocasionally on its own but if it persists try changin to a different IPV6 for the exploit settings usually marked by "old" or "Stable".     
+3. Console persistently shutting down at "[*] Waiting for IPCP configure ACK..." or "[+] Scanning for corrupted object..." try changing the Npcap version to an older one if on Windows.      
+4. If on a Mac try a windows device......    
+[+] STAGE 2: KASLR defeat
+[*] Defeating KASLR...
+[+] pppoe_softc_list: 0xffffffff884de578
+[+] kaslr_offset: 0x3ffc000
+      
 
-# Stage 2:
-
-# Stage 3  
+# Stage 3       
