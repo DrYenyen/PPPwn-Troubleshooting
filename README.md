@@ -9,7 +9,7 @@ Beginning to end PPPwn troubleshooting.
 2. Stuck on "[*] Waiting for PADI..." Make sure the PS4 and PC(or other device) are connected via ethernet.          
 3. Stuck on "[*] Waiting for PADI..." Make sure the PS4 internet settings are correctly set up and go to Settings>Network and press on "Test Internet Connection"     
 4. Stuck on "[*] Waiting for PADR..." If using a usb to ethernet adapter it may not be compatible or simply try restarting the exploit proccess.   
-5. Stuck on any of the below        
+5. Stuck on any of the below simply try restarting the exploit proccess.        
 [+] pppoe_softc: 0xffffabd634beba00     
 [+] Target MAC: xx:xx:xx:xx:xx:xx     
 [+] Source MAC: 07:ba:be:34:d6:ab     
