@@ -79,7 +79,7 @@ simply try restarting the exploit proccess.
       
 1. Any issues here usually result in a kernel panic=console shutting down.       
 2. Console shutdown happens ocasionally on its own but if it persists try changin to a different IPV6 for the exploit settings usually marked by "old" or "Stable".     
-3. If on a Mac try a windows device......    or if already on windows try changing the Npcap version to an older one if on Windows.       
+3. If on a Mac try a windows device......    or if already on windows try changing the Npcap version to an older one.     
        
 
 # Stage 3:             
