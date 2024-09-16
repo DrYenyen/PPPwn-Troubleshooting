@@ -1,2 +1,43 @@
 # PPPwn-Troubleshooting
 Beginning to end PPPwn troubleshooting.
+
+# Windows Desktop side troubleshooting.
+
+
+# Stage 0:         
+1. Stuck on "[*] Waiting for PADI..." Make sure you are calling the correct ethernet interface.       
+2. Stuck on "[*] Waiting for PADI..." Make sure the PS4 and PC(or other device) are connected via ethernet.          
+3. Stuck on "[*] Waiting for PADI..." Make sure the PS4 internet settings are correctly set up and go to Settings>Network and press on "Test Internet Connection"     
+4. Stuck on "[*] Waiting for PADR..." If using a usb to ethernet adapter it may not be compatible or simply try restarting the exploit proccess.   
+5. Stuck on any of the below        
+[+] pppoe_softc: 0xffffabd634beba00     
+[+] Target MAC: xx:xx:xx:xx:xx:xx     
+[+] Source MAC: 07:ba:be:34:d6:ab     
+[+] AC cookie length: 0x4e0    
+[*] Sending PADO...   
+[*] Sending PADS...    
+[*] Waiting for LCP configure request...    
+[*] Sending LCP configure ACK...    
+[*] Sending LCP configure request...    
+[*] Waiting for LCP configure ACK...    
+[*] Waiting for IPCP configure request...      
+[*] Sending IPCP configure NAK...    
+[*] Waiting for IPCP configure request...     
+[*] Sending IPCP configure ACK...      
+[*] Sending IPCP configure request...    
+[*] Waiting for IPCP configure ACK...      
+[*] Waiting for interface to be ready...     
+[+] Target IPv6: fe80::2d9:d1ff:febc:83e4    
+[+] Heap grooming... done or xx%       
+simply try restarting the exploit proccess. 
+
+     
+4. For more look at *Windows Desktop side troubleshooting*            
+       
+	   
+# Stage 1:
+
+
+# Stage 2:
+
+# Stage 3  
