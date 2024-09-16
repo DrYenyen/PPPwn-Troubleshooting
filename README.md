@@ -2,12 +2,16 @@
 Beginning to end PPPwn troubleshooting.    
 
 # Windows Desktop side troubleshooting.     
-1. Troubleshooting on windows is not straightforward .        
-2. Confirm your ethernet adapter is NOT bridged.        
+1. Troubleshooting on windows is not straightforward but you can try the following things.
+2. Confirm your ethernet adapter is NOT bridged with anything. 
 3. Try changing the Npcap version to an older one.         
-4. Confirm your ethernet adapter is functional by going into device manager and looking at "netword adapters".       
-
-# PS4 side troubeshooting.
+4. Confirm your ethernet adapter is functional by going into device manager and looking at "netword adapters" if there are any issues try reinstalling your adapter driver. 
+5. If using Python preferably go to C++ otherwise make sure Python , Pip and Scapy are installed.   
+6. Try a different windows device as sometimes no matter what you do issues cannot be resolved without reinstalling windows.      
+       
+# PS4 side troubeshooting.         
+1. Failed to get IP when pressing on "Test Internet Connection" Usually a PC side issue look above for troubleshooting or check your PS4 internet settings by looking below.      
+           
 # Setting up the PS4 internet connection  
 On your PS4  
 1. Go to **Settings** and then **Network**   
