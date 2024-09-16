@@ -123,5 +123,5 @@ simply try restarting the exploit proccess.
 4. If no matter what you do the bin file does not load either factory reset the console or replace the HDD.    
       
 # Misc issues Stage0: to Stage4:    
-1.   
+1. You may get some random errors here and there they are usually because of incorrect interface, incorrect files (resluts in kernel panic), incorrect firmware sellection or ocasionally incomplete dependencies.     
 
