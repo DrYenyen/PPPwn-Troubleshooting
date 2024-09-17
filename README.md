@@ -1,5 +1,6 @@
 # PPPwn-Troubleshooting     
-Beginning to end PPPwn troubleshooting. 
+Beginning to end PPPwn troubleshooting.   
+More info and extra stuff in the future.    
       
 # PPPwn Windows GUI 
 [PPPwn Tinker](https://github.com/DrYenyen/PPPwn-Tinker-GUI)    
