@@ -25,7 +25,8 @@ On your PS4
 4. Put in anything as **Username** and ***Password*** it is recommended for it to be 1 letter that's the same in both fields for better compatibility.
 5. Choose **Automatic** for *DNS Settings* and *MTU Settings*
 6. Choose **Do not use** for *Proxy Server*   
-7. Go back and be ready to press on *Test internet connection*      
+7. Go back and be ready to press on *Test internet connection*       
+8. Sometimes if you get no IP or are stuck on   "[*] Waiting for PADI..." you need to redo these settings and test again.   
      
 # Putting the goldhen or VTX payload on a usb          
 Format a usb drive to exFAT               
