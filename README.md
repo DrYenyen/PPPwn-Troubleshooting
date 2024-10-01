@@ -13,6 +13,7 @@ More info and extra stuff in the future.
 4. Confirm your ethernet adapter is functional by going into device manager and looking at "netword adapters" if there are any issues try reinstalling your adapter driver. 
 5. If using Python preferably go to C++ otherwise make sure Python , Pip and Scapy are installed.   
 6. Try a different windows device as sometimes no matter what you do issues cannot be resolved without reinstalling windows.      
+6. If using a USB to Ethernet adapter the adapter may just not be compatible
        
 # PS4 side troubeshooting.         
 1. Failed to get IP when pressing on "Test Internet Connection" Usually a PC side issue look above for troubleshooting or check your PS4 internet settings by looking below.      
@@ -70,6 +71,7 @@ simply try restarting the exploit proccess.
 2. Console shutdown at "[*] Waiting for IPCP configure ACK..." happens ocasionally on its own but if it persists try changin to a different IPV6 for the exploit settings usually marked by "old" or "Stable".     
 3. Console persistently shutting down at "[*] Waiting for IPCP configure ACK..." or "[+] Scanning for corrupted object..." try changing the Npcap version to an older one if on Windows.      
 4. If on a Mac try a windows device......    
+5. If stuck here no matter what try using the Python implementation of this jailbreak or a different device.         
       
 
 # Stage 2:     
@@ -82,6 +84,7 @@ simply try restarting the exploit proccess.
 1. Any issues here usually result in a kernel panic=console shutting down.       
 2. Console shutdown happens ocasionally on its own but if it persists try changin to a different IPV6 for the exploit settings usually marked by "old" or "Stable".     
 3. If on a Mac try a windows device......    or if already on windows try changing the Npcap version to an older one.     
+4. If stuck here no matter what try using the Python implementation of this jailbreak or a different device.    
        
 
 # Stage 3:             
@@ -117,7 +120,8 @@ simply try restarting the exploit proccess.
 [*] Sending IPCP configure request...      
 [*] Waiting for IPCP configure ACK...            
 1. Console shutdown happens ocasionally on its own but if it persists try changin to a different IPV6 for the exploit settings usually marked by "old", "Stable", "new" or "beta".      
-2. If issues persist recheck all your files and etc.         
+2. If issues persist recheck all your files and etc.        
+3. The script will also tell you if you have chosen incorrect firmware files and it usually results in a kernel panic on the PS4. 
 
 # Stage 4:   
 1. If you get     
@@ -126,7 +130,8 @@ simply try restarting the exploit proccess.
 [+] Done!      
 2. But only get the "PPPwned" message then there is an issue with the payload on the USB or HDD.      
 3. Reformat the USB to EXFAT and put "goldhen.bin" or "payload.bin" Goldhen or VTX Hen respectively.        
-4. If no matter what you do the bin file does not load either factory reset the console or replace the HDD.    
+4. If no matter what you do the bin file does not load either factory reset the console or replace the HDD or try from a different device.    
+5. The script will also tell you if you have chosen incorrect firmware files and it usually results in a kernel panic on the PS4.  
       
 # Misc issues Stage0: to Stage4:    
 1. You may get some random errors here and there they are usually because of incorrect interface, incorrect files (resluts in kernel panic), incorrect firmware sellection or ocasionally incomplete dependencies.     
