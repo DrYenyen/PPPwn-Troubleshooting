@@ -35,13 +35,23 @@ Copy the goldhen.bin file onto your usb drive  for Goldhen
 Copy the payload.bin file onto your usb drive  For VTX           
 Then plug the usb into your PS4              
        
+	   
+# Broken loop 
+If when the jailbreak is retrying it becomes stuck it can indicate a bad ethernet cable.
 
 # Stage 0:         
+# Do not bridge your Ethernet and WiFi adapters and do not share network across them this can lead to deeper issues and althought it may give you an IP address on the PS4 it will not give you progress past "[*] Waiting for PADI...".
 1. Stuck on "[*] Waiting for PADI..." Make sure you are calling the correct ethernet interface.       
 2. Stuck on "[*] Waiting for PADI..." Make sure the PS4 and PC(or other device) are connected via ethernet.          
 3. Stuck on "[*] Waiting for PADI..." Make sure the PS4 internet settings are correctly set up and go to Settings>Network and press on "Test Internet Connection"     
 4. Stuck on "[*] Waiting for PADR..." If using a usb to ethernet adapter it may not be compatible or simply try restarting the exploit proccess.   
-5. Stuck on any of the below simply try restarting the exploit proccess.        
+5. Stuck on any of the below simply try restarting the exploit proccess.       
+6. Stuck on "[*] Waiting for PADI..."  And the PS4 cannot obtain an IP address check the ethernet port on your PS4 and Laptop or PC running the exploit.
+7. Stuck on "[*] Waiting for PADI..."  And the PS4 cannot obtain an IP address replace the ethernet cable. 
+8. If you get an error "The procedure entry point PacketGetMonitorMode could not be located in dynamic link library" move pppwn.exe or the GUI and all it's other files to a folder not under the OneDrive path.
+9. If you get Libcap or similar errors it may be a driver issue find the driver for your laptop or desktop motherboard Ethernet controller delete the current one and install the one you got.
+10. If you do not get Libcap errors but are still stuck here it may be a driver issue find the driver for your laptop's or desktop motherboard's Ethernet controller delete the current one and install the one you got.
+
 [+] pppoe_softc: 0xffffabd634beba00     
 [+] Target MAC: xx:xx:xx:xx:xx:xx     
 [+] Source MAC: 07:ba:be:34:d6:ab     
@@ -63,17 +73,19 @@ Then plug the usb into your PS4
 [+] Heap grooming... done or xx%       
 simply try restarting the exploit proccess. 
       
-4. For more look at *Windows Desktop side troubleshooting*            
+1. For more look at *Windows Desktop side troubleshooting*            
        
 	   
 # Stage 1:
-1. Any issues here usually result in a kernel panic=console shutting down.       
-2. Console shutdown at "[*] Waiting for IPCP configure ACK..." happens ocasionally on its own but if it persists try changin to a different IPV6 for the exploit settings usually marked by "old" or "Stable".     
+1. Any issues here usually result in a kernel panic=console shutting down.          
 3. Console persistently shutting down at "[*] Waiting for IPCP configure ACK..." or "[+] Scanning for corrupted object..." try changing the Npcap version to an older one if on Windows.      
 4. If on a Mac try a windows device......    
 5. If stuck here no matter what try using the Python implementation of this jailbreak or a different device.         
-      
+6. Console shutdown at "[*] Waiting for IPCP configure ACK..." happens occasionally on its own but if it persists try changing to a different IPV6 for the exploit settings usually marked by "old" or "Stable". Or for the GUI in this guide type in <code>4141:4141:4141:4141</code> or <code>1111:1111:1111:1111</code> in the custom ipv6 field
+7. If you get Libcap or similar errors it may be a driver issue find the driver for your laptop's or desktop motherboard's Ethernet controller delete the current one and install the one you got.
+8. If you do not get Libcap errors but are still stuck here it may be a driver issue find the driver for your laptop's or desktop motherboard's Ethernet controller delete the current one and install the one you got.
 
+  
 # Stage 2:     
 0. If persistently stuck on the below  
 [+] STAGE 2: KASLR defeat      
@@ -81,11 +93,14 @@ simply try restarting the exploit proccess.
 [+] pppoe_softc_list: 0xffffffff884de578    
 [+] kaslr_offset: 0x3ffc000      
       
-1. Any issues here usually result in a kernel panic=console shutting down.       
-2. Console shutdown happens ocasionally on its own but if it persists try changin to a different IPV6 for the exploit settings usually marked by "old" or "Stable".     
+1. Any issues here usually result in a kernel panic=console shutting down. 
+* Troubleshooting from Stage1 also applies here.      
+2. Console shutdown happens occasionally on its own but if it persists try changing to a different IPV6 for the exploit settings usually marked by "old" or "Stable". Or for the GUI in this guide type in <code>4141:4141:4141:4141</code> or <code>1111:1111:1111:1111</code> in the custom ipv6 field
 3. If on a Mac try a windows device......    or if already on windows try changing the Npcap version to an older one.     
 4. If stuck here no matter what try using the Python implementation of this jailbreak or a different device.    
-       
+5. If you get Libcap or similar errors it may be a driver issue find the driver for your laptop's or desktop motherboard's Ethernet controller delete the current one and install the one you got.
+6. If you do not get Libcap errors but are still stuck here it may be a driver issue find the driver for your laptop's or desktop motherboard's Ethernet controller delete the current one and install the one you got.
+	    
 
 # Stage 3:             
 0. Any issues here usually result in a kernel panic=console shutting down.        
@@ -132,7 +147,15 @@ simply try restarting the exploit proccess.
 3. Reformat the USB to EXFAT and put "goldhen.bin" or "payload.bin" Goldhen or VTX Hen respectively.        
 4. If no matter what you do the bin file does not load either factory reset the console or replace the HDD or try from a different device.    
 5. The script will also tell you if you have chosen incorrect firmware files and it usually results in a kernel panic on the PS4.  
-      
+6. If you do not get Libcap errors but are still stuck here it may be a driver issue find the driver for your laptop's or desktop motherboard's Ethernet controller delete the current one and install the one you got.
+7. If you get Libcap or similar errors it may be a driver issue find the driver for your laptop or desktop motherboard Ethernet controller delete the current one and install the one you got.
+8. If you get: Error sending packet: send error: PacketSendPacket failed: A device attached to the system does not work properly. (31)[ERROR: or if after **[+] Done! the jailbreak is not loading Then Kaspersky or another Antivirus is blocking the jailbreak uninstall it disabling it will not help.  
+9. Additionally you may get some random errors here and there they are usually because of incorrect interface, incorrect files (result in kernel panic), incorrect firmware selection or occasionally incomplete dependencies.
+ 
 # Misc issues Stage0: to Stage4:    
-1. You may get some random errors here and there they are usually because of incorrect interface, incorrect files (resluts in kernel panic), incorrect firmware sellection or ocasionally incomplete dependencies.     
+1. You may get some random errors here and there they are usually because of incorrect interface, incorrect files (results in kernel panic), incorrect firmware selection or occasionally incomplete dependencies.  
+
+2. Very rarely the ethernet cable can cause issues too.  
+
+3. If you get Libcap or similar errors it may be a driver issue find the driver for your laptop or desktop motherboard Ethernet controller delete the current one and install the one you got.
 
