@@ -45,6 +45,7 @@ If when the jailbreak is retrying it becomes stuck it can indicate a bad etherne
 2. Stuck on "[*] Waiting for PADI..." Make sure the PS4 and PC(or other device) are connected via ethernet.          
 3. Stuck on "[*] Waiting for PADI..." Make sure the PS4 internet settings are correctly set up and go to Settings>Network and press on "Test Internet Connection"     
 4. Stuck on "[*] Waiting for PADR..." If using a usb to ethernet adapter it may not be compatible or simply try restarting the exploit proccess.   
+4. Stuck on "[*] Waiting for PADR..." Reinstall Ethernet driver on Windows.  
 5. Stuck on any of the below simply try restarting the exploit proccess.       
 6. Stuck on "[*] Waiting for PADI..."  And the PS4 cannot obtain an IP address check the ethernet port on your PS4 and Laptop or PC running the exploit.
 7. Stuck on "[*] Waiting for PADI..."  And the PS4 cannot obtain an IP address replace the ethernet cable. 
