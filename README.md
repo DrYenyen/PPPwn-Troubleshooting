@@ -14,6 +14,7 @@ More info and extra stuff in the future.
 5. If using Python preferably go to C++ otherwise make sure Python , Pip and Scapy are installed.   
 6. Try a different windows device as sometimes no matter what you do issues cannot be resolved without reinstalling windows.      
 6. If using a USB to Ethernet adapter the adapter may just not be compatible
+7. If you get an error that says Packet.dll not found then make sure Npcap is installed and if it is from C:\Windows\System32\Npcap copy the file Packet.dll to the same location as the pppwn.exe C++ implementation for the GUI you are using.  
        
 # PS4 side troubeshooting.         
 1. Failed to get IP when pressing on "Test Internet Connection" Usually a PC side issue look above for troubleshooting or check your PS4 internet settings by looking below.      
