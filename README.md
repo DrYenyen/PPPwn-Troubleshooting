@@ -81,11 +81,10 @@ simply try restarting the exploit proccess.
 # Stage 1:
 1. Any issues here usually result in a kernel panic=console shutting down.          
 3. Console persistently shutting down at "[*] Waiting for IPCP configure ACK..." or "[+] Scanning for corrupted object..." try changing the Npcap version to an older one if on Windows.      
-4. If on a Mac try a windows device......    
-5. If stuck here no matter what try using the Python implementation of this jailbreak or a different device.         
-6. Console shutdown at "[*] Waiting for IPCP configure ACK..." happens occasionally on its own but if it persists try changing to a different IPV6 for the exploit settings usually marked by "old" or "Stable". Or for the GUI in this guide type in <code>4141:4141:4141:4141</code> or <code>1111:1111:1111:1111</code> in the custom ipv6 field
-7. If you get Libcap or similar errors it may be a driver issue find the driver for your laptop's or desktop motherboard's Ethernet controller delete the current one and install the one you got.
-8. If you do not get Libcap errors but are still stuck here it may be a driver issue find the driver for your laptop's or desktop motherboard's Ethernet controller delete the current one and install the one you got.
+4. If on a Mac try a windows device......            
+5. Console shutdown at "[*] Waiting for IPCP configure ACK..." happens occasionally on its own but if it persists try changing to a different IPV6 for the exploit settings usually marked by "old" or "Stable". Or for the GUI in this guide type in <code>4141:4141:4141:4141</code> or <code>1111:1111:1111:1111</code> in the custom ipv6 field
+6. If you get Libcap or similar errors it may be a driver issue find the driver for your laptop's or desktop motherboard's Ethernet controller delete the current one and install the one you got.
+7. If you do not get Libcap errors but are still stuck here it may be a driver issue find the driver for your laptop's or desktop motherboard's Ethernet controller delete the current one and install the one you got.
 
   
 # Stage 2:     
@@ -99,9 +98,8 @@ simply try restarting the exploit proccess.
 * Troubleshooting from Stage1 also applies here.      
 2. Console shutdown happens occasionally on its own but if it persists try changing to a different IPV6 for the exploit settings usually marked by "old" or "Stable". Or for the GUI in this guide type in <code>4141:4141:4141:4141</code> or <code>1111:1111:1111:1111</code> in the custom ipv6 field
 3. If on a Mac try a windows device......    or if already on windows try changing the Npcap version to an older one.     
-4. If stuck here no matter what try using the Python implementation of this jailbreak or a different device.    
-5. If you get Libcap or similar errors it may be a driver issue find the driver for your laptop's or desktop motherboard's Ethernet controller delete the current one and install the one you got.
-6. If you do not get Libcap errors but are still stuck here it may be a driver issue find the driver for your laptop's or desktop motherboard's Ethernet controller delete the current one and install the one you got.
+4. If you get Libcap or similar errors it may be a driver issue find the driver for your laptop's or desktop motherboard's Ethernet controller delete the current one and install the one you got.
+5. If you do not get Libcap errors but are still stuck here it may be a driver issue find the driver for your laptop's or desktop motherboard's Ethernet controller delete the current one and install the one you got.
 	    
 
 # Stage 3:             
