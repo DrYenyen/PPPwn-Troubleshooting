@@ -35,8 +35,7 @@ Format a usb drive to exFAT
 Copy the goldhen.bin file onto your usb drive  for Goldhen          
 Copy the payload.bin file onto your usb drive  For VTX           
 Then plug the usb into your PS4              
-       
-	   
+          
 # Broken loop 
 If when the jailbreak is retrying it becomes stuck it can indicate a bad ethernet cable.
 
